@@ -48,7 +48,7 @@ async.mapLimit(urls, 5, async function(url) {
     return response.body
 }, (err, results) => {
     if (err) throw err
-    // 现在是一个响应主体数组。
+    // results 现在是一个响应主体数组。
     console.log(results)
 })
 ```
