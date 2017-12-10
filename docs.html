@@ -87,10 +87,9 @@
     <div class="container-overview">
     
         
-            <div class="description"><p>Async is a utility module which provides straight-forward, powerful functions
-for working with asynchronous JavaScript. Although originally designed for
-use with <a href="http://nodejs.org">Node.js</a> and installable via
-<code>npm install --save async</code>, it can also be used directly in the browser.</p></div>
+            <div class="description"><p>Async 是一个实用程序模块，它为使用异步 JavaScript 提供了直接、
+                强大的函数。尽管最初设计用于与 <a href="http://nodejs.org">Node.js</a> 一起使用，
+                使用 <code>npm install --save async</code> 进行安装。 它也可以直接在浏览器中使用。</p></div>
         
 
         
@@ -226,8 +225,7 @@ use with <a href="http://nodejs.org">Node.js</a> and installable via
     <div class="container-overview">
     
         
-            <div class="description"><p>A collection of <code>async</code> functions for manipulating collections, such as
-arrays and objects.</p></div>
+            <div class="description"><p>用于操作集合的 <code>async</code> 函数集合，例如数组和对象。</p></div>
         
 
         
@@ -335,11 +333,9 @@ arrays and objects.</p></div>
 
 
 <div class="description">
-    <pre class="prettyprint source"><code>import concat from &apos;async/concat&apos;;</code></pre><p>Applies <code>iteratee</code> to each item in <code>coll</code>, concatenating the results. Returns
-the concatenated list. The <code>iteratee</code>s are called in parallel, and the
-results are concatenated as they return. There is no guarantee that the
-results array will be returned in the original order of <code>coll</code> passed to the
-<code>iteratee</code> function.</p>
+    <pre class="prettyprint source">
+        <code>import concat from &apos;async/concat&apos;;</code></pre><p>将 <code>iteratee</code> 应用到 <code>coll</code> 中的每一项, 连接的结果。
+返回连接后的列表。 <code>iteratee</code>s 被并行调用，结果在返回时被连接起来。不能保证结果数组以 <code>coll</code> 传递给 <code>iteratee</code> 函数的原始顺序返回。</p>
 </div>
 
 
@@ -398,7 +394,7 @@ results array will be returned in the original order of <code>coll</code> passed
 
             
 
-            <td class="description last"><p>A collection to iterate over.</p></td>
+            <td class="description last"><p>一个可以迭代的集合。</p></td>
         </tr>
 
     
@@ -421,8 +417,8 @@ results array will be returned in the original order of <code>coll</code> passed
 
             
 
-            <td class="description last"><p>A function to apply to each item in <code>coll</code>,
-which should use an array as its result. Invoked with (item, callback).</p></td>
+            <td class="description last"><p>一个被应用到  <code>coll</code> 中每一个项的函数，
+结果为一个数组. 使用 (item, callback) 调用。</p></td>
         </tr>
 
     
@@ -447,10 +443,9 @@ which should use an array as its result. Invoked with (item, callback).</p></td>
 
             
 
-            <td class="description last"><p>A callback which is called after all the
-<code>iteratee</code> functions have finished, or an error occurs. Results is an array
-containing the concatenated results of the <code>iteratee</code> function. Invoked with
-(err, results).</p></td>
+            <td class="description last"><p>在所有的 <code>iteratee</code> 函数完成后，
+                或者发生错误时被调用的一个回调函数。结果是一个数组，
+                其中包含了 <code>iteratee</code> 函数的连接结果。使用 (err, results) 调用。</p></td>
         </tr>
 
     
