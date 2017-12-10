@@ -4,13 +4,13 @@
   "version": "2.6.0",
   "main": "dist/async.js",
   "author": "Caolan McMahon",
-  "homepage": "https://caolan.github.io/async/",
+  "homepage": "https://tuzhu008.github.io/async_cn/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caolan/async.git"
+    "url": "https://github.com/tuzhu008/async_cn.git"
   },
   "bugs": {
-    "url": "https://github.com/caolan/async/issues"
+    "url": "https://github.com/caolan/async/issue"
   },
   "keywords": [
     "async",
