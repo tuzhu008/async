@@ -8,7 +8,6 @@
 [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/async/badge?style=rounded)](https://www.jsdelivr.com/package/npm/async)
 
 
-Async is a utility module which provides straight-forward, powerful functions for working with [asynchronous JavaScript](http://caolan.github.io/async/global.html). Although originally designed for use with [Node.js](https://nodejs.org/) and installable via `npm install --save async`, it can also be used directly in the browser.
 
 Async 是一个实用程序模块，它为使用[异步 JavaScript](http://caolan.github.io/async/global.html) 提供了直接、强大的函数。尽管最初设计用于与 [Node.js](https://nodejs.org/) 一起使用，使用 `npm install --save async` 进行安装。 它也可以直接在浏览器中使用。
 
